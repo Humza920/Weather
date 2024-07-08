@@ -15,43 +15,11 @@
   background-position: center;
 }
 
-/* 
-.input-field {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.input-field input[type="text"] {
-  width: 100%;
-  height: 40px;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.input-field label {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.input-field input[type="text"]:focus {
-  outline: none;
-  border: 1px solid #aaa;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-} */
 
 .CENTER {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
 }
 
 .input-field {
@@ -59,7 +27,7 @@
   border-radius: 10px;
   border: 2px solid green;
   margin-top: 115px;
-  width: 110%;
+  width:100;
 }
 
 .input-field:focus {
@@ -74,13 +42,13 @@
 
 button {
   padding: 8px;
-  background-color: green;
+  background-color: #008959;
   border: 2px solid green;
   transition: ease-in 0.2s;
 }
 
 button:hover {
-  background-color: chartreuse;
+  background-color: green;
   transition: ease-out 0.2s;
 }
 
@@ -91,3 +59,5 @@ button:hover {
   justify-content: center;
   font-size: 65px;
 }
+
+#div{display: block;}
