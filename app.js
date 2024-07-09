@@ -8,6 +8,7 @@ let weather = [];
 
 form.addEventListener("submit", (e) => {
   e.preventDefault(); 
+  div.innerHTML=""
   axios(
     `https://api.weatherapi.com/v1/current.json?key=e3e98122324b454b92f44333241406&q=${input.value}&aqi=no`
   )
